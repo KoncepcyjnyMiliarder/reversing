@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Version">
+      <UniqueIdentifier>{9794a5ae-a14f-4749-85ca-673136652b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{19e7c6ab-2edc-4cfa-bd77-f4821a508bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sniffing/injecting">
+      <UniqueIdentifier>{36ee7ea6-955f-43cc-b69b-b86237f61cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{cf5ef25a-a3e2-4a1f-9ca4-a3305b5a4954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Lineage">
+      <UniqueIdentifier>{b3db8265-7025-4de0-a54e-719e05071d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Lineage\ServerPackets">
+      <UniqueIdentifier>{0f6306d0-2332-497f-a235-849608483fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bot">
+      <UniqueIdentifier>{5c0b395c-b925-4ca4-a0cf-f04f38862a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bot\World">
+      <UniqueIdentifier>{7429ab54-a4be-4168-9ddb-77aee93b9a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bot\Helpers">
+      <UniqueIdentifier>{25299c42-7b6b-4d11-9811-d18aca785535}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H5Version.cpp">
+      <Filter>Source Files\Version</Filter>
+    </ClCompile>
+    <ClCompile Include="InterludeVersion.cpp">
+      <Filter>Source Files\Version</Filter>
+    </ClCompile>
+    <ClCompile Include="VersionInfo.cpp">
+      <Filter>Source Files\Version</Filter>
+    </ClCompile>
+    <ClCompile Include="PEStuff.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionBasedSniffer.cpp">
+      <Filter>Source Files\Sniffing/injecting</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionCaller.cpp">
+      <Filter>Source Files\Sniffing/injecting</Filter>
+    </ClCompile>
+    <ClCompile Include="L2ParamStackWrapper.cpp">
+      <Filter>Source Files\Sniffing/injecting</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketInjector.cpp">
+      <Filter>Source Files\Sniffing/injecting</Filter>
+    </ClCompile>
+    <ClCompile Include="RawPacket.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteSerializer.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="LineagePacketFactory.cpp">
+      <Filter>Source Files\Network\Lineage</Filter>
+    </ClCompile>
+    <ClCompile Include="CharInfo.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSelected.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteObjectP.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="Die.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToLocation.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTargetSelected.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcInfo.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusUpdate.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetSelected.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetUnselected.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Source Files\Bot\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths.cpp">
+      <Filter>Source Files\Bot\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemList.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryUpdate.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortBuffStatusUpdate.cpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameVersion.hpp">
+      <Filter>Source Files\Version</Filter>
+    </ClInclude>
+    <ClInclude Include="H5Version.hpp">
+      <Filter>Source Files\Version</Filter>
+    </ClInclude>
+    <ClInclude Include="InterludeVersion.hpp">
+      <Filter>Source Files\Version</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionInfo.hpp">
+      <Filter>Source Files\Version</Filter>
+    </ClInclude>
+    <ClInclude Include="PEStuff.hpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdll.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="L2ParamStackWrapper.hpp">
+      <Filter>Source Files\Sniffing/injecting</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionBasedSniffer.hpp">
+      <Filter>Source Files\Sniffing/injecting</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionCaller.hpp">
+      <Filter>Source Files\Sniffing/injecting</Filter>
+    </ClInclude>
+    <ClInclude Include="Injector.hpp">
+      <Filter>Source Files\Sniffing/injecting</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketInjector.hpp">
+      <Filter>Source Files\Sniffing/injecting</Filter>
+    </ClInclude>
+    <ClInclude Include="Sniffer.hpp">
+      <Filter>Source Files\Sniffing/injecting</Filter>
+    </ClInclude>
+    <ClInclude Include="RawPacket.hpp">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteSerializer.hpp">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.hpp">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="LineagePacket.hpp">
+      <Filter>Source Files\Network\Lineage</Filter>
+    </ClInclude>
+    <ClInclude Include="LineagePacketFactory.hpp">
+      <Filter>Source Files\Network\Lineage</Filter>
+    </ClInclude>
+    <ClInclude Include="CharInfo.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="BotBrain.hpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObject.hpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.hpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.hpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCharacter.hpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSelected.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteObjectP.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="Die.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToLocation.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTargetSelected.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcInfo.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillList.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusUpdate.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetSelected.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetUnselected.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfo.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.hpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.hpp">
+      <Filter>Source Files\Bot\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.hpp">
+      <Filter>Source Files\Bot\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.hpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemList.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.hpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryUpdate.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortBuffStatusUpdate.hpp">
+      <Filter>Source Files\Network\Lineage\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff.hpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ThePilotOfTheService.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Item.hpp">
+      <Filter>Source Files\Bot\World</Filter>
+    </None>
+  </ItemGroup>
+</Project>
